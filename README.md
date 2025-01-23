@@ -19,13 +19,13 @@ Windows 用户可以打开 PowerShell 运行两句代码
 ```bash
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
-Invoke-Expression (Invoke-WebRequest -Uri "https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh" -UseBasicParsing).Content; ./install.sh 9a05909bf9238aed3dbfd61c36cdbb71
+Invoke-Expression (Invoke-WebRequest -Uri "https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh" -UseBasicParsing).Content; ./install.sh 7a43e733ff6844c1ac13a156a8c551c0
 ```
 
 
 #### 方式2：通过 GitHub 脚本
 ```bash
-bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) 9a05909bf9238aed3dbfd61c36cdbb71
+bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) 7a43e733ff6844c1ac13a156a8c551c0
 ```
 
 #### 方式3：手动下载二进制文件
@@ -34,7 +34,7 @@ bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest
 # MaxOS/Linux
 sudo mv cursor-vip_xx_xxx /usr/local/bin/cursor-vip;
 chmod +x /usr/local/bin/cursor-vip;
-cursor-vip 9a05909bf9238aed3dbfd61c36cdbb71;
+cursor-vip 7a43e733ff6844c1ac13a156a8c551c0;
 # Windows
 # 双击 cursor-vip_xx_xxx.exe
 ```
@@ -65,7 +65,7 @@ cursor-vip
 ---
 ### 推广指南
 通过推广 cursor-vip，您可以自动获得至多无限多的免费使用时间,对方也可以获取15天的免费试用(自主注册为7天), 可参考以下方式：
-1. clone 该仓库后，替换 `README` 中的 `9a05909bf9238aed3dbfd61c36cdbb71` 为您的设备码。
+1. clone 该仓库后，替换 `README` 中的 `7a43e733ff6844c1ac13a156a8c551c0` 为您的设备码。
 2. 在社交平台发布文章，安利此种使用 cursor pro 的方式，附加上自己的推广安装命令或 clone 后的 github 地址。
 3. 在相关 cursor 文章或视频下面评论 例如："可以使用 github 的 [你的github名字]/cursor-vip 低价或白嫖 Pro"
 ---
