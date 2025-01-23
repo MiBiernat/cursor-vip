@@ -12,7 +12,7 @@
 
 #### 方式1：通过 ghp.ci 代理脚本
 ```bash
-bash <(curl -Lk https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh) 9a05909bf9238aed3dbfd61c36cdbb71
+bash <(curl -Lk https://ghp.ci/https://github.com/kingparks/cursor-vip/releases/download/latest/install.sh) 7a43e733ff6844c1ac13a156a8c551c0
 ```
 
 Windows 用户可以打开 PowerShell 运行两句代码
